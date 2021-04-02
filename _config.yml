@@ -1,1 +1,17 @@
-theme: jekyll-theme-hacker
+name: Jekyll Themes
+#url: http://matt.harzewski.com
+url: http://ysj414.github.io
+description: Insert tagline here
+
+permalink: /themes/:title/
+
+plugins: [jekyll-paginate]
+
+highlighter: pygments
+paginate: 20
+
+markdown: rdiscount
+rdiscount:
+    extensions: ['smart']
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
