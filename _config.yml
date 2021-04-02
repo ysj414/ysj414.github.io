@@ -4,6 +4,7 @@ url: http://ysj414.github.io
 description: Insert tagline here
 
 permalink: /themes/:title/
+title: "Developer Yoonseon Jeong blog"
 
 plugins: [jekyll-paginate]
 
