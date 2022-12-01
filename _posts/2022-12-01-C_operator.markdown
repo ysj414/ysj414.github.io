@@ -1,7 +1,7 @@
 ---
 layout: post
 titile: C 언어 연산자 우선순위
-date: 2022-12-01 15:02:30 +0900
+date: 2022-12-01 02:02:30 +0900
 category: sample
 ---
 
@@ -27,7 +27,7 @@ category: sample
  46     && (llc->ctrl == LLC_DEFAULT_CTRL)));
  47 }
 ```
-정답은 후위연산자 -> 참조연산자 순으로 진행되어 먼저 frame의 주소 값을 1 증가시킨뒤 frame의 값을 참조한다.
+> 정답은 후위연산자 -> 참조연산자 순으로 진행되어 먼저 frame의 주소 값을 1 증가시킨뒤 frame의 값을 참조한다.
 
-C언어 연산자우선순위 참고자료: 
-https://coding-factory.tistory.com/635
+> C언어 연산자우선순위 참고자료: 
+> https://coding-factory.tistory.com/635
